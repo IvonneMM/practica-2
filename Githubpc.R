@@ -34,3 +34,6 @@ View(coronavirus)
 ###Análisis
 
 str(coronavirus)
+
+
+###oliii
