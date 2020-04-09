@@ -27,7 +27,7 @@ View(coronavirus)
 
 library(dplyr)
 coronavirus = coronavirus %>% 
-  mutate(Recuperados = replace(Recuperados, Recuperados == 'â€“', NA))
+  mutate(Recuperados = replace(Recuperados, Recuperados == '-“', NA))
 
 View(coronavirus)
 
